@@ -1,0 +1,41 @@
+# ZOAN_VP
+Adds ZOAN's virtual production features to a UE4 project
+
+Add these key bindings to your DefaultInput.ini file:
+
+```
++ActionMappings=(ActionName="NextCameraAction",bShift=False,bCtrl=False,bAlt=False,bCmd=False,Key=Vive_Right_Trackpad_Right)
++ActionMappings=(ActionName="PreviousCameraAction",bShift=False,bCtrl=False,bAlt=False,bCmd=False,Key=Vive_Right_Trackpad_Left)
++ActionMappings=(ActionName="SecondaryAction",bShift=False,bCtrl=False,bAlt=False,bCmd=False,Key=Vive_Right_Grip_Click)
++ActionMappings=(ActionName="MoveForwardAction",bShift=False,bCtrl=False,bAlt=False,bCmd=False,Key=Vive_Left_Trackpad_Up)
++ActionMappings=(ActionName="MoveBackwardAction",bShift=False,bCtrl=False,bAlt=False,bCmd=False,Key=Vive_Left_Trackpad_Down)
++ActionMappings=(ActionName="MoveRightAction",bShift=False,bCtrl=False,bAlt=False,bCmd=False,Key=Vive_Left_Trackpad_Right)
++ActionMappings=(ActionName="MoveLeftAction",bShift=False,bCtrl=False,bAlt=False,bCmd=False,Key=Vive_Left_Trackpad_Left)
++ActionMappings=(ActionName="MoveUpAction",bShift=False,bCtrl=False,bAlt=False,bCmd=False,Key=Vive_Left_Menu_Click)
++ActionMappings=(ActionName="MoveDownAction",bShift=False,bCtrl=False,bAlt=False,bCmd=False,Key=Vive_Left_Grip_Click)
++ActionMappings=(ActionName="ToggleFocusAction",bShift=False,bCtrl=False,bAlt=False,bCmd=False,Key=Vive_Right_Menu_Click)
++ActionMappings=(ActionName="IncreaseApertureAction",bShift=False,bCtrl=False,bAlt=False,bCmd=False,Key=Vive_Right_Trackpad_Up)
++ActionMappings=(ActionName="DecreaseApertureAction",bShift=False,bCtrl=False,bAlt=False,bCmd=False,Key=Vive_Right_Trackpad_Down)
++ActionMappings=(ActionName="ToggleKeyboardMouseAction",bShift=False,bCtrl=False,bAlt=False,bCmd=False,Key=V)
++ActionMappings=(ActionName="SecondaryAction",bShift=False,bCtrl=False,bAlt=False,bCmd=False,Key=SpaceBar)
++ActionMappings=(ActionName="ToggleFocusAction",bShift=False,bCtrl=False,bAlt=False,bCmd=False,Key=F)
++ActionMappings=(ActionName="PreviousCameraAction",bShift=False,bCtrl=False,bAlt=False,bCmd=False,Key=Left)
++ActionMappings=(ActionName="NextCameraAction",bShift=False,bCtrl=False,bAlt=False,bCmd=False,Key=Right)
++ActionMappings=(ActionName="Reopen Camera Feed Action",bShift=False,bCtrl=False,bAlt=False,bCmd=False,Key=None)
++ActionMappings=(ActionName="NextCameraGroupAction",bShift=False,bCtrl=False,bAlt=False,bCmd=False,Key=Period)
++ActionMappings=(ActionName="PreviousCameraGroupAction",bShift=False,bCtrl=False,bAlt=False,bCmd=False,Key=Comma)
++AxisMappings=(AxisName="ZoomAxis",Scale=-1.000000,Key=Vive_Right_Trigger_Axis)
++AxisMappings=(AxisName="MovementAxis",Scale=1.000000,Key=Vive_Left_Trigger_Axis)
++AxisMappings=(AxisName="ApertureAxis",Scale=1.000000,Key=None)
++AxisMappings=(AxisName="MouseXAxis",Scale=1.000000,Key=MouseX)
++AxisMappings=(AxisName="MouseYAxis",Scale=-1.000000,Key=MouseY)
++AxisMappings=(AxisName="KeyboardForwardAxis",Scale=1.000000,Key=W)
++AxisMappings=(AxisName="KeyboardForwardAxis",Scale=-1.000000,Key=S)
++AxisMappings=(AxisName="KeyboardRightAxis",Scale=1.000000,Key=D)
++AxisMappings=(AxisName="KeyboardRightAxis",Scale=-1.000000,Key=A)
++AxisMappings=(AxisName="KeyboardUpAxis",Scale=1.000000,Key=E)
++AxisMappings=(AxisName="KeyboardUpAxis",Scale=-1.000000,Key=Q)
++AxisMappings=(AxisName="LeftMouseAxis",Scale=1.000000,Key=LeftMouseButton)
++AxisMappings=(AxisName="RightMouseAxis",Scale=-1.000000,Key=RightMouseButton)
++AxisMappings=(AxisName="InputScaleAxis",Scale=1.000000,Key=MouseWheelAxis)
+```
