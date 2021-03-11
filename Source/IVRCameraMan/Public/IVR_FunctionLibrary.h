@@ -69,19 +69,19 @@ struct FIVR_CameraFrame
 
 public:
 	//Store the real camera name
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "CameraMan|Video|Structs")
 	FString IVR_CameraName;
 	//Store the Frame FPS Collected by the camera recordings
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "CameraMan|Video|Structs")
 	float   IVR_FrameFPS;
 	//Reference Position for the Frame.
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "CameraMan|Video|Structs")
 	FVector IVR_Position;
 	//Reference Rotation for the Frame.
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "CameraMan|Video|Structs")
 	FVector IVR_Rotation;
 	//Reference Scale for the Frame.
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "CameraMan|Video|Structs")
 	FVector IVR_Scale;
 };
 
@@ -97,19 +97,19 @@ struct FIVR_CameraMessage
 
 public:
 	//Store the real camera name
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "CameraMan|Video|Structs")
 	FString IVR_CameraName;
 	//Store the action to be performed by the camera
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "CameraMan|Video|Structs")
 	FString IVR_Action;
 	//Reference Position for the Action.
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "CameraMan|Video|Structs")
 	FVector IVR_Position;
 	//Reference Rotation for the Action.
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "CameraMan|Video|Structs")
 	FVector IVR_Rotation;
 	//Reference Scale for the Action.
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "CameraMan|Video|Structs")
 	FVector IVR_Scale;
 };
 
@@ -125,19 +125,19 @@ struct FIVR_CameraStruct
 
 public:
 	//Store the real camera name
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "CameraMan|Video|Structs")
 	FString                   IVR_CameraName;
 	//Store the Last FPS Collected by the camera recordings
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "CameraMan|Video|Structs")
 	float                     IVR_FPS;
 	//If true this camera record Stabilized Frames on the HD.(Used To know the correct files to load).
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "CameraMan|Video|Structs")
 	bool                      IVR_IsStabilized;
 	//Flag to Know the Camera State.(Take Care to not enable it in the wrong time!)
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "CameraMan|Video|Structs")
 	bool                      IVR_IsEnabled;
 	//For every frame recorded in a session, we record it in a list of frames at Camera´s Struct.
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "CameraMan|Video|Structs")
 	TArray<FIVR_CameraFrame>  IVR_Frames;
 };
 
