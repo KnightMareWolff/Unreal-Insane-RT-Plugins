@@ -59,33 +59,33 @@ public:
 
 	
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Meta = (ExposeOnSpawn = "true"), Category = "CameraMan|Video|Parameters")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Meta = (ExposeOnSpawn = "true"), Category = "Camera Parameters")
 	int32                     IVR_Width;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Meta = (ExposeOnSpawn = "true"), Category = "CameraMan|Video|Parameters")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Meta = (ExposeOnSpawn = "true"), Category = "Camera Parameters")
 	int32                     IVR_Height;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Meta = (ExposeOnSpawn = "true"), Category = "CameraMan|Video|Parameters")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Meta = (ExposeOnSpawn = "true"), Category = "Camera Parameters")
 	FLinearColor              IVR_ClearColor;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Meta = (ExposeOnSpawn = "true"), Category = "CameraMan|Video|Parameters")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Meta = (ExposeOnSpawn = "true"), Category = "Camera Parameters")
 	float                     IVR_Gamma;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Meta = (ExposeOnSpawn = "true"), Category = "CameraMan|Video|Parameters")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Meta = (ExposeOnSpawn = "true"), Category = "Camera Parameters")
 	bool                      IVR_EnableStabilization;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Meta = (ExposeOnSpawn = "true"), Category = "CameraMan|Video|Parameters")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Meta = (ExposeOnSpawn = "true"), Category = "Camera Parameters")
 	float                     IVR_StabilizationRate;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Meta = (ExposeOnSpawn = "true"), Category = "CameraMan|Video|Parameters")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Meta = (ExposeOnSpawn = "true"), Category = "Camera Parameters")
 	bool                      IVR_EnableTurboRecording;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Meta = (ExposeOnSpawn = "true"), Category = "CameraMan|Video|Parameters")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Meta = (ExposeOnSpawn = "true"), Category = "Camera Parameters")
 	float                     IVR_TurboRate;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Meta = (ExposeOnSpawn = "true"), Category = "CameraMan|Video|Parameters")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Meta = (ExposeOnSpawn = "true"), Category = "Camera Parameters")
 	float                     IVR_StabilizationArm;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Meta = (ExposeOnSpawn = "true"), Category = "CameraMan|Video|Parameters")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Meta = (ExposeOnSpawn = "true"), Category = "Camera Parameters")
 	float                     IVR_LagDistance;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Meta = (ExposeOnSpawn = "true"), Category = "CameraMan|Video|Parameters")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Meta = (ExposeOnSpawn = "true"), Category = "Camera Parameters")
 	FString                   IVR_CameraManName;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Meta = (ExposeOnSpawn = "true"), Category = "CameraMan|Video|Parameters")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Meta = (ExposeOnSpawn = "true"), Category = "Camera Parameters")
 	float                     IVR_CameraVelocity;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "CameraMan|Video|Parameters")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Camera Parameters")
 	float                     IVR_BaseTurnRate;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "CameraMan|Video|Parameters")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Camera Parameters")
 	float                     IVR_BaseLookUpRate;
 	
 	

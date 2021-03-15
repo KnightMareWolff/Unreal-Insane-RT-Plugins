@@ -12,12 +12,8 @@
 
 
 /**
-* Enumerates all possible focus point types:
+* Enumerates all possible optical Flowtypes:
 *
-* ZED_None:				Everything looks as sharp as possible
-* ZED_Manual:			Focus point is fully controlled by the cameraman
-* ZED_Automatic:		Focus point is tracked from the center of the virtual camera
-* ZED_Fixed:			Uses a fixed focus point already placed in the world
 */
 UENUM(BlueprintType)
 enum class EIVR_OpticalFlowType : uint8
@@ -37,13 +33,13 @@ class IVRCAMERAMANEDITOR_API UIVR_SuperResolutionParameters : public UObject
 	GENERATED_BODY()
 
 public:
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, DisplayName = "Resolution Scale")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, DisplayName = "Resolution Scale", Category = "Experimental Parameters")
 	int32                     IVR_SuperScale;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, DisplayName = "Algorithm Iterations")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, DisplayName = "Algorithm Iterations", Category = "Experimental Parameters")
 	int32                     IVR_SuperIterations;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, DisplayName = "Temporal Area Radius")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, DisplayName = "Temporal Area Radius", Category = "Experimental Parameters")
     int32                     IVR_SuperTemporalRadius;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, DisplayName = "Optical Flow Type")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, DisplayName = "Optical Flow Type", Category = "Experimental Parameters")
 	EIVR_OpticalFlowType      IVR_SuperOpticalFlow;
 
 	//Important Method to collect the struct containers
